@@ -1,8 +1,8 @@
-public class Arrays {
+public class BasicArray {
 	private int[] exampleArray;
 	private int length;
 	
-	public Arrays(int length) {
+	public BasicArray(int length) {
 		this.setLength(length);
 		exampleArray = new int[length];
 		fillArray();
